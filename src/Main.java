@@ -15,7 +15,7 @@ public class Main {
 
         //コレクションbooksの各要素の名前（カテゴリ）だけをすべて出力
         for (Book book : books) {
-            System.out.println(book.getName());
+            System.out.println(book.getCategory());
         }
 
         //2020年以降に出版された本のみインスタンスをそのまま出力
