@@ -35,7 +35,6 @@ public class Book {
     public void setPublish(int publish) {
         this.publish = publish;
     }
-    //toStringをオーバーライド
     
     @Override
     public String toString() {
